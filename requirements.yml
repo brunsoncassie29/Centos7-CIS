@@ -1,7 +1,3 @@
-ansible-lint
-yamllint
-tox
-molecule
-docker
-python-vagrant==0.5.15
-jmespath
+---
+roles:
+  - name: RHEL7-CIS
