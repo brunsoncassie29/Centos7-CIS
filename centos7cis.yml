@@ -1,0 +1,6 @@
+---
+- name: Centos7 STIGs!
+  hosts: all
+ 
+  roles:
+    - Centos7-CIS
