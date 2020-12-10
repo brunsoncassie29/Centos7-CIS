@@ -1,0 +1,9 @@
+---
+# Post tasks
+
+- name: Perform UM package cleanup
+  command: yum -y autoremove
+  changed_When: no
+  ignore_errors: yes
+  tags:
+    - skip_ansible_lint
